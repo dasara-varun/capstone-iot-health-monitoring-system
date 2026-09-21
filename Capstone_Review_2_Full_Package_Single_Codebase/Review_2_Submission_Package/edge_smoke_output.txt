@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "edge-device-01-20260921T043122.362767+0000-0f0fd7f2",
+    "device_id": "edge-device-01",
+    "event_time": "2026-09-21T04:31:22.362767+00:00",
+    "sensor": "spo2",
+    "raw_value": 97.0,
+    "processed_value": 97.0,
+    "unit": "%",
+    "quality_status": "ACCEPTABLE",
+    "quality_score": 0.95,
+    "baseline": 97.0,
+    "deviation": 0.0,
+    "severity": "NORMAL",
+    "confidence": "HIGH",
+    "anomaly_score": 0.0,
+    "reason_codes": "[]",
+    "explanation": "Processed value is within the current baseline.",
+    "sync_status": "PENDING",
+    "created_at": "2026-09-21T04:31:22.362845+00:00"
+  },
+  {
+    "event_id": "edge-device-01-20260921T043122.362767+0000-3411e980",
+    "device_id": "edge-device-01",
+    "event_time": "2026-09-21T04:31:22.362767+00:00",
+    "sensor": "spo2",
+    "raw_value": 91.0,
+    "processed_value": 94.0,
+    "unit": "%",
+    "quality_status": "ACCEPTABLE",
+    "quality_score": 0.57,
+    "baseline": 97.0,
+    "deviation": -3.0,
+    "severity": "NORMAL",
+    "confidence": "MEDIUM",
+    "anomaly_score": 0.0,
+    "reason_codes": "[\"short_window_instability\"]",
+    "explanation": "Decision based on: short_window_instability.",
+    "sync_status": "PENDING",
+    "created_at": "2026-09-21T04:31:22.363208+00:00"
+  }
+]
+
+PY_COMPILE=PASS
