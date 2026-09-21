@@ -207,7 +207,7 @@ flutter test
 | [SRS Document](architecture/SRS_Cloud_IoT_Health_Monitoring_System.md) | Software Requirements Specification |
 | [Single Codebase Amendment](architecture/Single_Codebase_Architecture_Amendment.md) | Cross-platform architecture details |
 | [Software Adaptation Blueprint](architecture/Software_Adaptation_Blueprint.md) | Adaptation patterns |
-| [System Diagrams](architecture/diagrams/) | Architecture, data flow, processing workflow |
+| [System Diagrams](architecture/architecture/diagrams/) | Architecture, data flow, processing workflow |
 
 ## 🔧 Configuration
 
