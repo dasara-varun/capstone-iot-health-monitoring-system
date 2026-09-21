@@ -115,8 +115,9 @@ iot-health-monitoring/
 │       ├── pubspec.yaml
 │       └── test/
 ├── architecture/                      # Architecture documentation
-│   ├── diagrams/                      # System diagrams
-│   ├── *.md                           # Technical specifications
+│   ├── architecture/                  # Documentation files
+│   │   ├── diagrams/                  # System diagrams
+│   │   ├── *.md                       # Technical specifications
 ├── info/                              # Review & submission documents
 └── health_cloud.db                    # Local database (dev)
 ```
@@ -203,11 +204,15 @@ flutter test
 
 | Document | Description |
 |----------|-------------|
-| [Architecture Specification](architecture/Health_Monitoring_Platform_Specification.md) | Complete system specification |
-| [SRS Document](architecture/SRS_Cloud_IoT_Health_Monitoring_System.md) | Software Requirements Specification |
-| [Single Codebase Amendment](architecture/Single_Codebase_Architecture_Amendment.md) | Cross-platform architecture details |
-| [Software Adaptation Blueprint](architecture/Software_Adaptation_Blueprint.md) | Adaptation patterns |
+| [Architecture Specification](architecture/architecture/Health_Monitoring_Platform_Specification.md) | Complete system specification |
+| [SRS Document](architecture/architecture/SRS_Cloud_IoT_Health_Monitoring_System.md) | Software Requirements Specification |
+| [Single Codebase Amendment](architecture/architecture/Single_Codebase_Architecture_Amendment.md) | Cross-platform architecture details |
+| [Software Adaptation Blueprint](architecture/architecture/Software_Adaptation_Blueprint.md) | Adaptation patterns |
 | [System Diagrams](architecture/architecture/diagrams/) | Architecture, data flow, processing workflow |
+| [Review 2 Master Pack](info/Review_2_Submission_Package/Review_2_Master_Pack.md) | Review submission summary |
+| [Individual Contributions](info/Review_2_Submission_Package/Individual_Contributions_and_Test_Sheet.md) | Team contributions & test log |
+| [Review Presentation (PDF)](info/Review_2_Submission_Package/Capstone_Project_Review-2_-_Cloud-Based_IoT_Health_Monitoring_System.pdf) | Project presentation slides |
+| [Review Presentation (PPTX)](info/Review_2_Submission_Package/Capstone_Project_Review-2_-_Cloud-Based_IoT_Health_Monitoring_System.pptx) | Editable presentation file |
 
 ## 🔧 Configuration
 
